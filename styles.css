@@ -71,6 +71,7 @@ table {
     h1 {
         font-family: 'Kavoon';
         font-size: 3em;
+        color: var(--White);
     }
 
     h2 {
@@ -107,10 +108,17 @@ table {
 
     body {
         background-color: var(--Lavender);
+        max-width: 450px;
+        display: block;
+        align-content: center;
     }
 
     header {
         background-color: var(--Purple);
+    }
+
+    header p {
+        color: var(--White);
     }
 
     nav {
@@ -121,8 +129,14 @@ table {
         background-color: var(--Purple);
     }
 
-    #whyChoose li {
+    #whyChoose {
         font-family: 'Inter';
+        background-color: var(--Pink);
+
+    }
+
+    #whyChoose h2 {
+        color: var(--White);
 
     }
 
