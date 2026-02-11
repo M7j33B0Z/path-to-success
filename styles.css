@@ -109,8 +109,7 @@ table {
     body {
         background-color: var(--Lavender);
         max-width: 450px;
-        display: block;
-        align-content: center;
+        
     }
 
     header {
