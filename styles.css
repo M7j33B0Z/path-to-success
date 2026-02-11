@@ -83,6 +83,12 @@ table {
         font-size: 1.5em;
     }
 
+    nav li {
+        font-family: 'Inter';
+        font-size: 1em;
+        
+    }
+
     h3 {
         font-family: 'Inter';
         font-size: 1.15em;
@@ -93,6 +99,26 @@ table {
         font-size: 1.15em;
 
     }
+
+    p {
+        font-family: 'Inter';
+        font-size: 1em;
+    }
+
+    #whyChoose li {
+        font-family: 'Inter';
+
+    }
+
+    table{
+        font-family: 'Inter';
+    }
+
+    footer {
+        font-family: 'Inter';
+    }
+
+    
 
 /*All other text
 Inter*/
