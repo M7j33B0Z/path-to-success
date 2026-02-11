@@ -87,7 +87,9 @@ table {
     nav li {
         font-family: 'Inter';
         font-size: 1em;
-        
+        color: var(--Purple);
+
+        background-color: var(--White);
     }
 
     h3 {
@@ -126,6 +128,35 @@ table {
 
     #services {
         background-color: var(--Purple);
+    }
+
+    #services h2 {
+        color: var(--White);
+    }
+
+    #oneOnOne h3 {
+        color: var(--Yellow);
+    }
+
+    #oneOnOne h4 {
+        color: var(--Lavender);
+    }
+
+    #oneOnOne p {
+        color: var(--Dark-gray);
+    }
+
+    #group h3 {
+        color: var(--Yellow);
+
+    }
+
+    #group h4 {
+        color: var(--Lavender);
+    }
+
+    #group p {
+        color: var(--Dark-gray);
     }
 
     #whyChoose {
