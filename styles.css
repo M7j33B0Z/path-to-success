@@ -105,6 +105,22 @@ table {
         font-size: 1em;
     }
 
+    body {
+        background-color: var(--Lavender);
+    }
+
+    header {
+        background-color: var(--Purple);
+    }
+
+    nav {
+        background-color: var(--Yellow);
+    }
+
+    #services {
+        background-color: var(--Purple);
+    }
+
     #whyChoose li {
         font-family: 'Inter';
 
