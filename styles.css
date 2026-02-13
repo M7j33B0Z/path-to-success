@@ -72,34 +72,45 @@ table {
         font-family: 'Kavoon';
         font-size: 3em;
         color: var(--White);
+        text-align: center;
     }
 
     h2 {
         font-family: 'Kavoon';
         font-size: 2em;
+        padding-left: 5px;
     }
 
     nav h2 {
         font-family: 'Kavoon';
         font-size: 1.5em;
+        text-align: center;
+        font-style: italic;
     }
 
     nav li {
         font-family: 'Inter';
         font-size: 1em;
         color: var(--Purple);
+        text-transform: uppercase;
+        font-weight: bold;
 
         background-color: var(--White);
+        text-align: center;
+        margin: 5px; 
+        padding: 10px;
     }
 
     h3 {
         font-family: 'Inter';
         font-size: 1.15em;
+        padding-left: 5px;
     }
 
     h4 {
         font-family: 'Inter';
         font-size: 1.15em;
+        
 
     }
 
@@ -111,19 +122,24 @@ table {
     body {
         background-color: var(--Lavender);
         max-width: 450px;
+        margin: 0 auto;
         
     }
 
     header {
         background-color: var(--Purple);
+        padding: 20px;
     }
 
     header p {
         color: var(--White);
+        text-align: center;
+        font-style: italic;
     }
 
     nav {
         background-color: var(--Yellow);
+        padding: 10px;
     }
 
     #services {
