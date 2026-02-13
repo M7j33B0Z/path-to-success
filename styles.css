@@ -144,6 +144,8 @@ table {
 
     #services {
         background-color: var(--Purple);
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 
     #services h2 {
@@ -240,6 +242,60 @@ table {
         margin-left: 5px;
         margin-right: 5px;
     }
+
+    #workshops h3 {
+        color: var(--Yellow);
+    }
+
+    #workshops h4 {
+        color: var(--Lavender);
+
+    }
+
+    #workshops p {
+        color: var(--Dark-gray);
+    }
+
+    #interactiveLearning {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+     #interactiveLearning h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #courses h3 {
+        color: var(--Yellow);
+    }
+
+    #courses h4 {
+        color: var(--Lavender);
+    }
+
+    #courses p {
+        color: var(--Dark-gray);
+    }
+    
+    #flexibleLearning {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+     #flexibleLearning h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     
 
     #whyChoose {
@@ -251,6 +307,10 @@ table {
     #whyChoose h2 {
         color: var(--White);
 
+    }
+
+    #whyChoose li {
+        
     }
 
     table{
