@@ -162,6 +162,45 @@ table {
         color: var(--Dark-gray);
     }
 
+    #personalDev {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+    #personalDev h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+     #careerCoaching {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+    #careerCoaching h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #relationshipCoaching {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+     #relationshipCoaching h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
     #group h3 {
         color: var(--Yellow);
 
