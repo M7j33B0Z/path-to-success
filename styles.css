@@ -352,8 +352,36 @@ table {
         border-radius: 5%;
     }
 
+    #pricing {
+        background-color: var(--Purple);
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #pricing h2 {
+        color: var(--White);
+    }
+
+    #pricing h3 {
+        color: var(--Yellow);
+    }
+
     table{
         font-family: 'Inter';
+        margin: 10px;
+        border: 3px solid var(--Yellow);
+    }
+
+    th {
+        background-color: var(--Yellow);
+        font-weight: bold;
+        padding: 5px;
+        
+    }
+
+    td {
+        padding: 5px;
+        background-color: var(--White);
     }
 
     footer {
