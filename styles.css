@@ -301,6 +301,7 @@ table {
     #whyChoose {
         font-family: 'Inter';
         background-color: var(--Pink);
+        padding: 10px;
 
     }
 
@@ -310,7 +311,45 @@ table {
     }
 
     #whyChoose li {
-        
+        font-family: 'Inter';
+        font-size: medium;
+        font-weight: bold;
+        color: var(--Dark-gray);
+
+       
+               
+    }
+
+    li.personal {
+        background-color: var(--Teal);
+        text-align: center;
+        margin: 10px;
+        padding: 30px;
+        border-radius: 5%;
+    }
+
+     li.proven {
+        background-color: var(--Lavender);
+        text-align: center;
+        margin: 10px;
+        padding: 30px;
+        border-radius: 5%;
+    }
+
+     li.supportive {
+        background-color: var(--Yellow);
+        text-align: center;
+        margin: 10px;
+        padding: 30px;
+        border-radius: 5%;
+    }
+
+     li.flexible {
+        background-color: var(--White);
+        text-align: center;
+        margin: 10px;
+        padding: 30px;
+        border-radius: 5%;
     }
 
     table{
