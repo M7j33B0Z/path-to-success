@@ -200,7 +200,6 @@ table {
         margin-right: 5px;
     }
 
-
     #group h3 {
         color: var(--Yellow);
 
@@ -214,6 +213,33 @@ table {
         color: var(--Dark-gray);
     }
 
+    #supportiveCommunity {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+     #supportiveCommunity h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #focusedSessions {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+     #focusedSessions h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
     
 
     #whyChoose {
