@@ -315,8 +315,6 @@ table {
         font-size: medium;
         font-weight: bold;
         color: var(--Dark-gray);
-
-       
                
     }
 
@@ -350,6 +348,12 @@ table {
         margin: 10px;
         padding: 30px;
         border-radius: 5%;
+    }
+
+    .chooseTableWrapper{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     #pricing {
@@ -419,6 +423,15 @@ table {
     footer {
         font-family: 'Inter';
         background-color: var(--Purple);
+        margin-top: 0;
+        padding: 50px;
+    }
+
+    footer small {
+        font-family: 'Inter';
+        color: var(--White);
+        display: inline-block;
+        justify-content: center;
     }
 
     
