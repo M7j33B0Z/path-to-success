@@ -373,19 +373,50 @@ table {
     table{
         font-family: 'Inter';
         margin: 10px;
-        border: 3px solid var(--Yellow);
+        border: 1px solid var(--Yellow);
+        
+    }
+
+    #oneOnOnePrice table {
+       display: flex;
+       justify-content: center;
+       border: none;
+
+    }
+
+    #groupPrice table {
+        display: flex;
+        justify-content: center;
+        border: none;
+
+    }
+
+    #workshopPrice table {
+        display: flex;
+        justify-content: center;
+        border: none;
+
+    }
+
+    #onlineCoursePrice table {
+        display: flex;
+        justify-content: center;
+        border: none;
+
     }
 
     th {
         background-color: var(--Yellow);
         font-weight: bold;
-        padding: 5px;
+        padding: 10px;
+        border: 1px solid var(--Yellow);
         
     }
 
     td {
-        padding: 5px;
+        padding: 10px;
         background-color: var(--White);
+        border: 1px solid var(--Yellow);
     }
 
     #firstStep {
@@ -415,9 +446,9 @@ table {
         display: flex;
         background-color: var(--White);
         justify-content: center;
-        margin: 5px;
         padding: 10px;
         border-radius: 5%;
+        box-shadow: 10px 5px 5px var(--Dark-gray);
     }
 
     footer {
@@ -429,6 +460,7 @@ table {
 
     footer small {
         font-family: 'Inter';
+        font-size: 1em;
         color: var(--White);
         display: inline-block;
         justify-content: center;
@@ -441,3 +473,4 @@ Inter*/
 
 
 
+ 
