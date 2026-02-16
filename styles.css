@@ -119,6 +119,11 @@ table {
         font-size: 1em;
     }
 
+    small {
+        font-family: 'Inter';
+        font-size: small;
+    }
+
     body {
         background-color: var(--Lavender);
         max-width: 450px;
@@ -176,7 +181,7 @@ table {
         margin-bottom: 10px;
     }
 
-     #careerCoaching {
+    #careerCoaching {
         background-color: var(--White);
         margin: 20px;
         padding: 20px;
@@ -421,6 +426,7 @@ table {
 
     #firstStep {
         background-color: var(--Pink);
+        margin: 0px;
         
     }
 
@@ -438,16 +444,22 @@ table {
         padding-left: 5px;
         padding-right: 5px;
         padding-top: 5px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
 
     }
 
     #firstStep a {
-        display: flex;
-        background-color: var(--White);
-        justify-content: center;
+        font-family: 'Inter';
+        color: var(--Dark-gray);
+        text-align: center;
+        text-decoration: none;
+        
+        display: block;
+        margin: 0 auto; 
+        width: 75%;
         padding: 10px;
-        border-radius: 5%;
+        background-color: var(--White);
+        border-radius: 10%;
         box-shadow: 10px 5px 5px var(--Dark-gray);
     }
 
@@ -456,14 +468,14 @@ table {
         background-color: var(--Purple);
         margin-top: 0;
         padding: 50px;
+        padding-right: 50px;
     }
 
     footer small {
-        font-family: 'Inter';
-        font-size: 1em;
         color: var(--White);
-        display: inline-block;
+        display: inline-flex;
         justify-content: center;
+        margin: 20px;
     }
 
     
