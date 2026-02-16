@@ -384,8 +384,41 @@ table {
         background-color: var(--White);
     }
 
+    #firstStep {
+        background-color: var(--Pink);
+        
+    }
+
+    #firstStep h2 {
+        color: var(--White);
+        margin: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    #firstStep p {
+        color: var(--White);
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+    }
+
+    #firstStep a {
+        display: flex;
+        background-color: var(--White);
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 5%;
+    }
+
     footer {
         font-family: 'Inter';
+        background-color: var(--Purple);
     }
 
     
