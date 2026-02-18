@@ -155,10 +155,12 @@ table {
 
     #services h2 {
         color: var(--White);
+        padding-left: 10px;
     }
 
     #oneOnOne h3 {
         color: var(--Yellow);
+        padding-left: 10px;
     }
 
     #oneOnOne h4 {
@@ -209,6 +211,7 @@ table {
 
     #group h3 {
         color: var(--Yellow);
+        padding-left: 10px;
 
     }
 
@@ -250,6 +253,8 @@ table {
 
     #workshops h3 {
         color: var(--Yellow);
+        padding-left: 10px;
+
     }
 
     #workshops h4 {
@@ -259,6 +264,7 @@ table {
 
     #workshops p {
         color: var(--Dark-gray);
+
     }
 
     #interactiveLearning {
@@ -266,6 +272,7 @@ table {
         margin: 20px;
         padding: 20px;
         border-radius: 5%;
+
     }
 
      #interactiveLearning h4 {
@@ -273,10 +280,13 @@ table {
         margin-bottom: 10px;
         margin-left: 5px;
         margin-right: 5px;
+
     }
 
     #courses h3 {
         color: var(--Yellow);
+        padding-left: 10px;
+
     }
 
     #courses h4 {
@@ -365,6 +375,7 @@ table {
         background-color: var(--Purple);
         padding-bottom: 10px;
         padding-top: 10px;
+        padding-left: 10px;
     }
 
     #pricing h2 {
@@ -427,13 +438,14 @@ table {
     #firstStep {
         background-color: var(--Pink);
         margin: 0px;
+        padding-bottom: 10px;
         
     }
 
     #firstStep h2 {
         color: var(--White);
         margin: 0px;
-        padding-left: 5px;
+        padding-left: 10px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 5px;
@@ -441,15 +453,17 @@ table {
 
     #firstStep p {
         color: var(--White);
-        padding-left: 5px;
+        padding-left: 10px;
         padding-right: 5px;
         padding-top: 5px;
-        padding-bottom: 20px;
+        padding-bottom: 5px;
 
     }
 
     #firstStep a {
         font-family: 'Inter';
+        text-transform: uppercase;
+        font-weight: bold;
         color: var(--Dark-gray);
         text-align: center;
         text-decoration: none;
@@ -459,7 +473,7 @@ table {
         width: 75%;
         padding: 10px;
         background-color: var(--White);
-        border-radius: 10%;
+        border-radius: 30%;
         box-shadow: 10px 5px 5px var(--Dark-gray);
     }
 
