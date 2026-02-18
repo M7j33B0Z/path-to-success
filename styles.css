@@ -153,6 +153,18 @@ table {
         padding-top: 10px;
     }
 
+    #services h4 {
+        color: var(--Lavender);
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+    }
+
+    #services p {
+        color: var(--Dark-gray);
+
+    }
+
     #services h2 {
         color: var(--White);
         padding-left: 10px;
@@ -163,14 +175,7 @@ table {
         padding-left: 10px;
     }
 
-    #oneOnOne h4 {
-        color: var(--Lavender);
-    }
-
-    #oneOnOne p {
-        color: var(--Dark-gray);
-    }
-
+   
     #personalDev {
         background-color: var(--White);
         margin: 20px;
@@ -178,11 +183,7 @@ table {
         border-radius: 5%;
     }
 
-    #personalDev h4 {
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-
+    
     #careerCoaching {
         background-color: var(--White);
         margin: 20px;
@@ -190,11 +191,7 @@ table {
         border-radius: 5%;
     }
 
-    #careerCoaching h4 {
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-
+    
     #relationshipCoaching {
         background-color: var(--White);
         margin: 20px;
@@ -202,13 +199,7 @@ table {
         border-radius: 5%;
     }
 
-     #relationshipCoaching h4 {
-        margin-top: 20px;
-        margin-bottom: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
+     
     #group h3 {
         color: var(--Yellow);
         padding-left: 10px;
@@ -217,6 +208,8 @@ table {
 
     #group h4 {
         color: var(--Lavender);
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 
     #group p {
@@ -473,7 +466,7 @@ table {
         width: 75%;
         padding: 10px;
         background-color: var(--White);
-        border-radius: 30%;
+        border-radius: 0.5rem;
         box-shadow: 10px 5px 5px var(--Dark-gray);
     }
 
